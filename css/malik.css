@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Poppins|Kaushan+Script");
+
+.hero {
+    
+    background: linear-gradient(rgba(91, 134, 229, 0.65), rgba(54, 209, 220, 0.65)), rgba(0, 0, 0, 0.55) url("bg.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    font-family: 'Poppins', sans-serif;
+  }
+
+.hero .nama .title {
+    font-family: 'Kaushan Script', sans-serif;
+    transform: rotate(-5deg);
+    font-size: 5rem;
+    color: whitesmoke;
+  }
+
+.hero .profession {
+    padding-top: 50px;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+}
+
+.hero .subtitle {
+    padding: 5px;
+    color: 
+    whitesmoke;
+}
+
+#foto{
+    border-radius: 20px;
+}
+
+.button:not(body).is-purple {
+    background-color:#3b79ffa6;
+    color: #fff;
+  }
+  
+
+  
